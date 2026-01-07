@@ -21,6 +21,7 @@ html[data-theme="dark"] {
 }
 
 @theme inline {
+  --font-mono: "Noto Sans Japanese";
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
