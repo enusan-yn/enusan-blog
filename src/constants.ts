@@ -6,6 +6,8 @@ import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
+import IconReddit from "@/assets/icons/IconReddit.svg";
+import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import { SITE } from "@/config";
 
@@ -24,6 +26,12 @@ export const SOCIALS: Social[] = [
     icon: IconBrandX,
   },
   {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/enusan.blog",
+    linkTitle: `${SITE.title} on Bluesky`,
+    icon: IconBluesky,
+  },
+  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/sanghyeon-yeo-19911a97/",
     linkTitle: `${SITE.title} on LinkedIn`,
@@ -39,16 +47,10 @@ export const SOCIALS: Social[] = [
 
 export const SHARE_LINKS: Social[] = [
   {
-    name: "WhatsApp",
-    href: "https://wa.me/?text=",
-    linkTitle: `Share this post via WhatsApp`,
-    icon: IconWhatsapp,
-  },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/sharer.php?u=",
-    linkTitle: `Share this post on Facebook`,
-    icon: IconFacebook,
+    name: "Bluesky",
+    href: "https://bsky.app/intent/compose?text='",
+    linkTitle: `Share this post via Bluesky`,
+    icon: IconBluesky,
   },
   {
     name: "X",
@@ -57,16 +59,22 @@ export const SHARE_LINKS: Social[] = [
     icon: IconBrandX,
   },
   {
-    name: "Telegram",
-    href: "https://t.me/share/url?url=",
-    linkTitle: `Share this post via Telegram`,
-    icon: IconTelegram,
+    name: "Facebook",
+    href: "https://www.facebook.com/sharer.php?u=",
+    linkTitle: `Share this post on Facebook`,
+    icon: IconFacebook,
   },
   {
-    name: "Pinterest",
-    href: "https://pinterest.com/pin/create/button/?url=",
-    linkTitle: `Share this post on Pinterest`,
-    icon: IconPinterest,
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/sharing/share-offsite/?url=",
+    linkTitle: `Share this post via LinkedIn`,
+    icon: IconLinkedin,
+  },
+  {
+    name: "Reddit",
+    href: "https://www.reddit.com/submit?url=",
+    linkTitle: `Share this post on Reddit`,
+    icon: IconReddit,
   },
   {
     name: "Mail",

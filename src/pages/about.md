@@ -3,4 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-To be filled
+Sanghyeon Yeo
+
+currently working as Microsoft 365 / System engineer in CnThoth.
+
