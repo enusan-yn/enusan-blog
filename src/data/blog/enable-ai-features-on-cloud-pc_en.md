@@ -1,17 +1,18 @@
 ---
 author: Sanghyeon Yeo
-pubDatetime: 2026-01-08T01:00:00Z
-title: Cloud PCでAI機能を
-slug: enable-ai-features-on-cloud-pc-jp
-featured: true
-draft: true
+pubDatetime: 2026-01-19T00:00:00Z
+modDatetime: 2026-01-20T00:00:00Z
+title: Enable AI features on Cloud PC
+slug: enable-ai-features-on-cloud-pc
+featured: false
+draft: false
 tags:
   - intune
   - windows365
   - cloudpc
   - ai
 description:
-  Cloud PCでAI機能を
+  Enable AI features on Cloud PC
 ---
 
 # Introduction
@@ -22,7 +23,7 @@ AI-enabled Cloud PC is Cloud PC that can use Windows' AI feature which requires 
 Currently, only some of the features can be used.
 
 - Improved Windows Search [Find files fast with improved Windows search](https://www.microsoft.com/en-us/windows/learning-center/find-files-fast-with-improved-search)
-- Click to Do [Click to Do overview](https://learn.microsoft.com/en-us/windows/apps/develop/windows-integration/click-to-do)
+- Click to Do [Click to Do: do more with what’s on your screen](https://support.microsoft.com/en-us/windows/click-to-do-do-more-with-what-s-on-your-screen-6848b7d5-7fb0-4c43-b08a-443d6d3f5955)
 
 # Requirements
 AI-enabled Cloud PC is currently provided as frontier preivew, so it can only be available to tenant participating Copilot Frontier program.
@@ -72,4 +73,5 @@ At overview page, AI-Enabled is marked as Yes.
 
 # Read more
 [Experience next-gen productivity with Windows 365 AI-enabled Cloud PCs](https://techcommunity.microsoft.com/blog/windows-itpro-blog/experience-next-gen-productivity-with-windows-365-ai-enabled-cloud-pcs/4467875)
+  
 [AI-enabled Cloud PC (Frontier Preview)](https://learn.microsoft.com/en-us/windows-365/enterprise/ai-enabled-cloud-pcs)
