@@ -2,7 +2,7 @@
 author: Sanghyeon Yeo
 pubDatetime: 2026-01-20T00:00:00Z
 title: AI対応クラウドPCを設定しよ
-slug: enable-ai-features-on-cloud-pc
+slug: enable-ai-features-on-cloud-pc-jp
 featured: false
 draft: false
 tags:
